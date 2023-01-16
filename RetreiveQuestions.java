@@ -72,8 +72,6 @@ public class RetreiveQuestions {
 				System.out.println();
 			}
 			
-			int Total = 10;
-			
 			System.out.println("Exam Completed ");
 			System.out.println("Score obtained by Student in Exam >>"+correctanswer);
 			
@@ -98,8 +96,6 @@ public class RetreiveQuestions {
 		}catch (Exception e) {
 			e.getMessage();
 		}
-
-		System.out.println("Connected");
 
 		return new RetreiveQuestions();
 	}
