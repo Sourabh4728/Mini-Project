@@ -22,7 +22,7 @@ public class RetreiveQuestions {
 		Scanner sc = new Scanner(System.in);
 	
 		
-		//Creating Connection of JDBC with the MySql i.e,Database
+		//Creating Connection of Java application with the MySql Database with the help of JDBC
 		try {
 			//Load the driver class
 			Class.forName("com.mysql.jdbc.Driver");
